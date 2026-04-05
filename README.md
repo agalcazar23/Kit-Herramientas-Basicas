@@ -11,7 +11,7 @@ Cada uno de los integrantes tocaremos una herramienta, siendo:
 
 | 🏷️ Área de Trabajo | 👤 Responsable | 📂 Repositorio Local |
 | :--- | :--- | :--- |
-| **💻 Información del Sistema** | Hugo Izquierdo | [`Hugo`](./hugo/) |
+| **💻 Información del Sistema** | Hugo Izquierdo | [`Hugo`](./hugo/informacion_sistemas.md) |
 | **💽 Testeo de Discos** | Daniel Romero | [`Daniel`](./dani/) |
 | **🔄 Recuperación de Datos** | Manuel Morales | [`Morales`](./morales/) |
 | **🔑 Recuperación de Contraseñas** | Daniel González | [`Donis`](./donis/) |
