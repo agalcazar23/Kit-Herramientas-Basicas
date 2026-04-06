@@ -20,4 +20,3 @@ Cada uno de los integrantes tocaremos una herramienta, siendo:
 ---
 
 📌 *Cada uno de nosotros nos encargaremos de hacer una descripción, con su enlace a la herramienta y su respectivo video.*
-rtyutuyt
