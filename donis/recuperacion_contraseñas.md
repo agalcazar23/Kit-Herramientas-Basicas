@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛠️ KIT DE HERRAMIENTAS | SECCIÓN 5
+# 🛠️ KIT DE HERRAMIENTAS | SECCIÓN 3
 # 🔑 Hashcat: El recuperador de contraseñas más rápido del mundo
 
 [![GitHub Release](https://img.shields.io/github/v/release/hashcat/hashcat?style=flat-square&color=6366f1)](https://github.com/hashcat/hashcat)
