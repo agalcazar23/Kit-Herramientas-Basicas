@@ -57,11 +57,6 @@
 
 ---
 
-> [!TIP]
-> **Recordatorio Crítico:** Cuando recuperes archivos con PhotoRec, asegúrate de guardarlos en un disco físico **DIFERENTE** al que estás analizando. De lo contrario, sobrescribirás los bloques de datos que intentas salvar.
 
----
+<p align="right">Daniel Romero Marin</p>
 
-<p align="right">Daniel González Hidalgo</p>
-
-Daniel Romero Marin
