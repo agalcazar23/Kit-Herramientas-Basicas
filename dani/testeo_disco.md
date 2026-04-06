@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛠️ KIT DE HERRAMIENTAS | SECCIÓN 5
+# 🛠️ KIT DE HERRAMIENTAS | SECCIÓN 2
 # 🔑 TestDisk & PhotoRec: La suite esencial de recuperación y diagnóstico
 
 [![GitHub Release](https://img.shields.io/github/v/release/cgsecurity/testdisk?style=flat-square&color=6366f1)](https://github.com/cgsecurity/testdisk)
