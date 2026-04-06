@@ -1,23 +1,28 @@
-## 🛠️ KIT DE HERRAMIENTAS | SECCIÓN 2
+<div align="center">
 
-### 🔑 TestDisk & PhotoRec: La suite esencial de recuperación y diagnóstico de discos
+# 🛠️ KIT DE HERRAMIENTAS | SECCIÓN 5
+# 🔑 TestDisk & PhotoRec: La suite esencial de recuperación y diagnóstico
 
-![release](https://img.shields.io/github/v/release/cgsecurity/testdisk?label=release%20v7.2&color=blue) ![Plataformas](https://img.shields.io/badge/Plataformas-Windows%20%7C%20Linux%20%7C%20macOS-blue) ![Licencia](https://img.shields.io/badge/Licencia-GPLv2-green)
-
-TestDisk & PhotoRec es una potente suite de herramientas de código abierto líder en el sector, esencial para el diagnóstico y la recuperación de discos. TestDisk se especializa en la recuperación de particiones de disco perdidas y la reparación de sectores de arranque. PhotoRec se centra en la recuperación de archivos borrados o de discos con fallos físicos graves.
-
-🔗 [Sitio Web Oficial](https://www.cgsecurity.org/wiki/TestDisk_ES) • 💻 [Código Fuente](https://github.com/cgsecurity/testdisk) • 📖 [Documentación](https://www.cgsecurity.org/wiki/PhotoRec_ES)
+[![GitHub Release](https://img.shields.io/github/v/release/cgsecurity/testdisk?style=flat-square&color=6366f1)](https://github.com/cgsecurity/testdisk)
+[![Platform](https://img.shields.io/badge/Plataformas-Windows_|_Linux_|_macOS-blue?style=flat-square)](https://www.cgsecurity.org)
+[![License](https://img.shields.io/badge/Licencia-GPLv2-green?style=flat-square)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 
 ---
 
-### 💎 ¿Por qué TestDisk & PhotoRec es la herramienta definitiva de disco?
+**TestDisk & PhotoRec** es una potente suite de herramientas de código abierto, líder en el sector, esencial para el diagnóstico de discos, la recuperación de particiones perdidas, la reparación de sectores de arranque y la extracción de datos en crudo.
 
-> **[!] Important**
-> **Prevención de Desastres:** TestDisk es fundamental para reparar tablas de particiones dañadas y sectores de arranque, lo que permite que el sistema operativo vuelva a arrancar. PhotoRec ignora el sistema de archivos para recuperar archivos directamente de los datos brutos, ideal para discos con fallos físicos graves.
+[🌐 Sitio Web Oficial](https://www.cgsecurity.org/wiki/TestDisk_ES) • [📂 Código Fuente](https://github.com/cgsecurity/testdisk) • [📖 Documentación](https://www.cgsecurity.org/wiki/TestDisk_Paso_A_Paso)
+
+</div>
+
+### 💎 ¿Por qué TestDisk & PhotoRec es la herramienta definitiva?
+
+> [!IMPORTANT]
+> **Prevención y Recuperación de Desastres:** TestDisk es fundamental para reparar tablas de particiones dañadas a bajo nivel, permitiendo que el sistema vuelva a arrancar. PhotoRec ignora el sistema de archivos dañado para extraer información directamente de los bloques en crudo (RAW).
 
 | ⚡ RECUPERACIÓN | 🛠️ REPARACIÓN | 🛡️ FORENSE |
 | :--- | :--- | :--- |
-| Recupera particiones NTFS, FAT, ext2/ext3/ext4 perdidas. | Repara tablas de particiones dañadas y sectores de arranque. | Herramienta potente para análisis forense de datos. |
+| Recupera particiones NTFS, FAT, ext y más. | Repara sectores de arranque dañados. | Herramienta potente para análisis de datos físicos. |
 
 ---
 
@@ -25,20 +30,20 @@ TestDisk & PhotoRec es una potente suite de herramientas de código abierto líd
 
 | Función | Descripción Técnica |
 | :--- | :--- |
-| **Multi-Plataforma** | Funciona en casi todos los sistemas operativos comunes (Windows, Linux, macOS, BSD, etc.). |
-| **Soporte de Sistemas de Archivos** | Cubre casi todos los sistemas de archivos comunes (NTFS, FAT, ext2/3/4, HFS+, Btrfs, etc.). |
-| **Recuperación de Archivos** | PhotoRec soporta cientos de formatos de archivo para la recuperación de medios digitales. |
-| **Análisis de Disco** | Capacidad para analizar y reportar sobre la salud de la tabla de particiones del disco. |
+| **Multi-Plataforma** | Funciona nativamente en la mayoría de sistemas operativos como Windows, Linux, macOS y DOS. |
+| **Soporte de Sistemas de Archivos** | Cubre la inmensa mayoría de formatos (NTFS, exFAT, ext2/3/4, HFS+, Btrfs, etc.). |
+| **Recuperación en Crudo** | PhotoRec soporta la extracción de cientos de firmas de archivos ignorando la tabla de particiones. |
+| **Análisis Lógico** | Reconstruye sectores de arranque a partir de copias de seguridad o datos lógicos en la unidad. |
 
 ---
 
 ### 🚀 Guía de Despliegue Rápido
 
-1.  **Ejecución:** Lanza `testdisk` o `photorec` con privilegios de administrador.
-2.  **Selección de Disco:** Elige la unidad física que deseas analizar de la lista proporcionada.
-3.  **Tipo de Partición:** Selecciona el tipo de tabla de particiones del disco (ej: Intel para MBR o EFI GPT para sistemas modernos).
-4.  **Análisis:** Permite que la herramienta busque particiones perdidas o archivos borrados.
-5.  **Guardado:** Escribe la nueva tabla de particiones o copia los archivos recuperados a un disco seguro.
+1. **Ejecución:** Lanza `testdisk` o `photorec` desde la terminal con privilegios de administrador.
+2. **Selección de Disco:** Elige la unidad física que deseas analizar (ignora las particiones lógicas si el disco está dañado).
+3. **Tipo de Partición:** Selecciona el tipo de tabla de particiones (normalmente `Intel` para MBR o `EFI GPT` para modernos).
+4. **Análisis:** Inicia la búsqueda profunda de particiones perdidas o el escaneo de firmas de archivos.
+5. **Guardado:** Escribe la nueva tabla de particiones en la unidad (TestDisk) o extrae los archivos rescatados (PhotoRec).
 
 ---
 
@@ -46,11 +51,17 @@ TestDisk & PhotoRec es una potente suite de herramientas de código abierto líd
 
 | Sistema Operativo | Enlace de Instalación |
 | :--- | :--- |
-| 🪟 Windows | `testdisk-7.2.win.zip` |
-| 🐧 Linux | `apt install testdisk` / `pacman -S testdisk` |
-| 🍎 macOS | `brew install testdisk` |
+| **🪟 Windows** | [Descargar Binarios Oficiales (.zip)](https://www.cgsecurity.org/wiki/TestDisk_Download) |
+| **🐧 Linux** | [Repositorios (apt/pacman) o Descarga Directa](https://www.cgsecurity.org/wiki/TestDisk_Download) |
+| **🍎 macOS** | [Instalación vía Homebrew (`brew install testdisk`)](https://formulae.brew.sh/formula/testdisk) |
 
 ---
 
-> **Tip**
-> ⚠️ **Recordatorio Crítico:** Cuando recuperes archivos con PhotoRec, asegúrate de guardarlos en un disco físico DIFERENTE al que estás analizando. De lo contrario, podrías sobrescribir los datos que intentas recuperar.
+> [!TIP]
+> **Recordatorio Crítico:** Cuando recuperes archivos con PhotoRec, asegúrate de guardarlos en un disco físico **DIFERENTE** al que estás analizando. De lo contrario, sobrescribirás los bloques de datos que intentas salvar.
+
+---
+
+<p align="right">Daniel González Hidalgo</p>
+
+Daniel Romero Marin
