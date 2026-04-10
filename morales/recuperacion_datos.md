@@ -5,6 +5,7 @@ Este apartado se centra en herramientas diseñadas para rescatar archivos que ha
  ## **Herramienta seleccionada: RECUVA ![Recuva](https://www.ccleaner.com/favicon.ico)**
 
 > *Nota: Para aumentar las posibilidades de éxito, evita instalar el programa o guardar nuevos archivos en la unidad donde perdiste los datos, ya que podrías sobrescribirlos.*
+
 Recuva es una herramienta de recuperación de datos gratuita y eficaz desarrollada por Piriform. Su función principal es restaurar archivos que han sido marcados como eliminados por el sistema operativo, pero cuyo espacio físico en el disco *aún no ha sido sobrescrito por nuevos datos*. Su objetivo principal es restaurar archivos que el sistema operativo ha marcado como "espacio libre", pero que físicamente siguen presentes en los clústeres del disco duro.
 
 **¿Qué la hace destacar?**
